@@ -601,9 +601,3 @@
   }
 }
 
-/* ==========================================================================
-   Footer Spacing Adjustment
-   ========================================================================== */
-.site-footer {
-    margin-top: var(--spacing-2xl); /* Adds 6rem (96px) of elegant space above the footer */
-}
