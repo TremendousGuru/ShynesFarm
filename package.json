@@ -1,0 +1,25 @@
+{
+  "name": "shyne-livestock-farms-venture",
+  "version": "1.0.0",
+  "description": "Official website for SHYNE LIVESTOCK FARMS VENTURE, a Nigerian agricultural business supplying farm produce, livestock products, and agricultural solutions.",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "keywords": [
+    "agriculture",
+    "farm produce",
+    "livestock farming",
+    "Nigerian agriculture",
+    "maize supplier",
+    "catfish farming",
+    "agricultural products",
+    "bulk farm supply"
+  ],
+  "author": "SHYNE LIVESTOCK FARMS VENTURE",
+  "license": "MIT"
+}

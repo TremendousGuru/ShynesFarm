@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Shynefarms-ng.com/sitemap.xml
+Sitemap: https://shynelivestockfarmsventure.netlify.app/sitemap.xml

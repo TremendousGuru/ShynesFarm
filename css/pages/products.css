@@ -1,0 +1,609 @@
+/* ==========================================================================
+   SHYNE'S FARM VENTURES - Products Page Specific Styles
+   ========================================================================== */
+
+/* ==========================================================================
+   1. Products Hero Section
+   ========================================================================== */
+.products-hero-section {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding-top: var(--header-height);
+  overflow: hidden;
+  background-color: var(--color-primary-dark);
+}
+
+.products-hero-section .hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.products-hero-section .hero-background picture,
+.products-hero-section .hero-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.products-hero-section .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg, 
+    rgba(15, 61, 34, 0.95) 0%, 
+    rgba(15, 61, 34, 0.85) 40%, 
+    rgba(15, 61, 34, 0.5) 100%
+  );
+  z-index: 1;
+}
+
+.products-hero-section .hero-content {
+  position: relative;
+  z-index: 2;
+  padding: var(--spacing-3xl) 0;
+  max-width: 800px;
+}
+
+.products-hero-section .hero-headline {
+  color: var(--color-white);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: var(--spacing-lg);
+  letter-spacing: -0.03em;
+}
+
+.products-hero-section .hero-text-block p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: var(--font-size-lg);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-md);
+}
+
+.products-hero-section .hero-cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xl);
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .products-hero-section .hero-cta-group {
+    flex-direction: row;
+    max-width: none;
+  }
+}
+
+/* ==========================================================================
+   2. Products Intro Section
+   ========================================================================== */
+.products-intro-section {
+  padding: var(--spacing-4xl) 0 var(--spacing-2xl);
+  background-color: var(--color-white);
+}
+
+/* ==========================================================================
+   3. Filter & Search System
+   ========================================================================== */
+.products-filter-section {
+  padding: 0 0 var(--spacing-3xl);
+  background-color: var(--color-white);
+  position: sticky;
+  top: var(--header-height);
+  z-index: 10;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.filter-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+
+.search-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.product-search-input {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: var(--font-size-base);
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--border-radius-md);
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+  transition: var(--transition-base);
+  font-family: var(--font-family-base);
+  box-shadow: var(--shadow-sm);
+}
+
+.product-search-input::placeholder {
+  color: var(--color-gray-500);
+}
+
+.product-search-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  background-color: var(--color-white);
+  box-shadow: 0 0 0 4px rgba(26, 77, 46, 0.1);
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+.filter-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-gray-600);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  transition: var(--transition-fast);
+  font-family: var(--font-family-base);
+}
+
+.filter-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: rgba(26, 77, 46, 0.05);
+}
+
+.filter-btn.active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+}
+
+@media (min-width: 768px) {
+  .filter-controls {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .search-container {
+    max-width: 350px;
+  }
+}
+
+/* ==========================================================================
+   4. Product Catalog Grid
+   ========================================================================== */
+.products-grid-section {
+  padding: var(--spacing-2xl) 0 var(--spacing-4xl);
+  background-color: var(--color-gray-50);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+.product-card {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition-base);
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--color-secondary-light);
+}
+
+.product-image-wrapper {
+  width: 100%;
+  /* Mobile View: Portrait orientation */
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background-color: var(--color-gray-100);
+  position: relative;
+}
+
+.product-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-slow);
+}
+
+.product-card:hover .product-image-wrapper img {
+  transform: scale(1.05);
+}
+
+.product-content {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-category-label {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--spacing-xs);
+}
+
+.product-name {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-gray-900);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.3;
+}
+
+.product-description {
+  color: var(--color-gray-600);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-md);
+  flex-grow: 1;
+}
+
+.product-meta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-lg);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-gray-100);
+}
+
+.product-availability {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--border-radius-sm);
+  width: fit-content;
+}
+
+.status-available {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #047857;
+}
+
+.status-seasonal {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: #B45309;
+}
+
+.product-suitable {
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-500);
+  font-weight: 500;
+}
+
+.product-card .btn {
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (min-width: 640px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .product-image-wrapper {
+    /* Desktop View: Landscape orientation */
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (min-width: 1280px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* ==========================================================================
+   5. Bulk Buyer Section
+   ========================================================================== */
+.bulk-buyer-section {
+  padding: var(--spacing-4xl) 0;
+  /* Layered approach: background image + green transparent overlay */
+  background: 
+    linear-gradient(rgba(15, 61, 34, 0.9), rgba(15, 61, 34, 0.9)),
+    url('/assets/images/products/bulk-supply-background.webp') center/cover no-repeat;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bulk-buyer-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle at 20% 50%, rgba(217, 119, 6, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.bulk-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.bulk-content .section-title {
+  color: var(--color-white);
+  margin-bottom: var(--spacing-lg);
+}
+
+.bulk-content .section-title::after {
+  background-color: var(--color-white);
+}
+
+.bulk-text p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: var(--font-size-lg);
+  line-height: 1.7;
+  margin-bottom: var(--spacing-xl);
+}
+
+/* ==========================================================================
+   6. Why Buy From Us Section - Premium Trust Grid
+   ========================================================================== */
+.why-buy-section {
+  padding: var(--spacing-4xl) 0;
+  background-color: var(--color-white);
+}
+
+.why-buy-section .section-header {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-buy-section .trust-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+.why-buy-section .trust-card {
+  background-color: var(--color-white);
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-base);
+  border: 1px solid var(--color-gray-200);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.why-buy-section .trust-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--color-secondary-light);
+}
+
+.why-buy-section .trust-card-icon {
+  margin-bottom: var(--spacing-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background-color: var(--color-gray-50);
+  border-radius: 50%;
+}
+
+.why-buy-section .trust-card-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.why-buy-section .trust-card-title {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-gray-900);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.why-buy-section .trust-card-description {
+  color: var(--color-gray-600);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+  .why-buy-section .trust-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .why-buy-section .trust-cards-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* Reuses .trust-cards-grid and .trust-card from main.css/home.css */
+
+/* ==========================================================================
+   7. Supply Request Modal
+   ========================================================================== */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(4px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md);
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-base);
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-xl);
+  padding: var(--spacing-xl);
+  width: 100%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: var(--shadow-2xl);
+  transform: translateY(20px);
+  transition: var(--transition-base);
+}
+
+.modal-overlay.active .modal-content {
+  transform: translateY(0);
+}
+
+.modal-close {
+  position: absolute;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--color-gray-500);
+  border-radius: 50%;
+  transition: var(--transition-fast);
+}
+
+.modal-close:hover {
+  background-color: var(--color-gray-100);
+  color: var(--color-gray-900);
+}
+
+.modal-header {
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.modal-title {
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-900);
+  margin-bottom: var(--spacing-sm);
+}
+
+.modal-description {
+  color: var(--color-gray-600);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+}
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-gray-700);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: var(--font-size-base);
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-family-base);
+  transition: var(--transition-fast);
+  background-color: var(--color-gray-50);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  background-color: var(--color-white);
+  box-shadow: 0 0 0 3px rgba(26, 77, 46, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.inquiry-form .btn {
+  margin-top: var(--spacing-sm);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .modal-content {
+    padding: var(--spacing-2xl);
+  }
+}
+
+/* ==========================================================================
+   Footer Spacing Adjustment
+   ========================================================================== */
+.site-footer {
+    margin-top: var(--spacing-2xl); /* Adds 6rem (96px) of elegant space above the footer */
+}

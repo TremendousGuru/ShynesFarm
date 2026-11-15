@@ -1,0 +1,320 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://Shynefarms-ng.com/#organization",
+      "@type": [
+        "AgriculturalBusiness",
+        "LocalBusiness"
+      ],
+      "name": "SHYNE LIVESTOCK FARMS VENTURE",
+      "legalName": "SHYNE LIVESTOCK FARMS VENTURES",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "CAC Business Name Registration Number",
+        "name": "Corporate Affairs Commission (CAC), Nigeria",
+        "value": "7222678"
+      },
+      "description": "A Nigerian agricultural business supplying quality farm produce, livestock products, grains, and agricultural products to households, businesses, food processors, wholesalers, distributors, institutions, and commercial buyers.",
+      "url": "https://Shynefarms-ng.com",
+      "logo": "https://Shynefarms-ng.com/assets/icons/logo.png",
+      "image": "https://Shynefarms-ng.com/assets/images/hero/hero-farm-operation-desktop.webp",
+      "telephone": "+2347017005468",
+      "email": "shyneagrofarms@yahoo.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "43 Queens Street, Alagomeji, Sabo Yaba",
+        "addressLocality": "Lagos",
+        "addressCountry": "NG"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+2347017005468",
+        "email": "shyneagrofarms@yahoo.com",
+        "contactType": "sales",
+        "areaServed": "Nigeria",
+        "availableLanguage": [
+          "English"
+        ]
+      },
+      "sameAs": [
+        "https://facebook.com/shynelivestockfarmsventures",
+        "https://instagram.com/shyne_agro",
+        "https://tiktok.com/@shyne.livestock.f"
+      ],
+      "knowsAbout": [
+        "Agricultural production",
+        "Farm produce supply",
+        "Livestock farming",
+        "Grain supply",
+        "Food supply solutions",
+        "Bulk agricultural distribution"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "Nigeria"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Agricultural Products",
+        "itemListElement": [
+          {
+            "@type": "Product",
+            "name": "Catfish",
+            "url": "https://Shynefarms-ng.com/products/catfish.html"
+          },
+          {
+            "@type": "Product",
+            "name": "Coconut",
+            "url": "https://Shynefarms-ng.com/products/coconut.html"
+          },
+          {
+            "@type": "Product",
+            "name": "Maize",
+            "url": "https://Shynefarms-ng.com/products/maize.html"
+          },
+          {
+            "@type": "Product",
+            "name": "Millet",
+            "url": "https://Shynefarms-ng.com/products/millet.html"
+          },
+          {
+            "@type": "Product",
+            "name": "Palm Oil",
+            "url": "https://Shynefarms-ng.com/products/palm-oil.html"
+          },
+          {
+            "@type": "Product",
+            "name": "Snails",
+            "url": "https://Shynefarms-ng.com/products/snails.html"
+          },
+          {
+            "@type": "Product",
+            "name": "Soya Beans",
+            "url": "https://Shynefarms-ng.com/products/soya-beans.html"
+          },
+          {
+            "@type": "Product",
+            "name": "Vegetables",
+            "url": "https://Shynefarms-ng.com/products/vegetables.html"
+          },
+          {
+            "@type": "Product",
+            "name": "Yam",
+            "url": "https://Shynefarms-ng.com/products/yam.html"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://Shynefarms-ng.com/#website",
+      "@type": "WebSite",
+      "name": "SHYNE LIVESTOCK FARMS VENTURE",
+      "url": "https://Shynefarms-ng.com",
+      "publisher": {
+        "@id": "https://Shynefarms-ng.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/#homepage",
+      "name": "SHYNE LIVESTOCK FARMS VENTURE",
+      "url": "https://Shynefarms-ng.com",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@id": "https://Shynefarms-ng.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/Industries/food-processors.html",
+      "name": "Food Processors",
+      "url": "https://Shynefarms-ng.com/Industries/food-processors.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@id": "https://Shynefarms-ng.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/Industries/hotels-restaurants.html",
+      "name": "Hotels and Restaurants",
+      "url": "https://Shynefarms-ng.com/Industries/hotels-restaurants.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@id": "https://Shynefarms-ng.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/Industries/institutions.html",
+      "name": "Institutions",
+      "url": "https://Shynefarms-ng.com/Industries/institutions.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@id": "https://Shynefarms-ng.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/Industries/international-buyers.html",
+      "name": "International Buyers",
+      "url": "https://Shynefarms-ng.com/Industries/international-buyers.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@id": "https://Shynefarms-ng.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/Industries/supermarkets-retailers.html",
+      "name": "Supermarkets and Retailers",
+      "url": "https://Shynefarms-ng.com/Industries/supermarkets-retailers.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@id": "https://Shynefarms-ng.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/Industries/wholesalers-distributors.html",
+      "name": "Wholesalers and Distributors",
+      "url": "https://Shynefarms-ng.com/Industries/wholesalers-distributors.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@id": "https://Shynefarms-ng.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/catfish.html",
+      "name": "Catfish Product Page",
+      "url": "https://Shynefarms-ng.com/products/catfish.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Catfish"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/coconut.html",
+      "name": "Coconut Product Page",
+      "url": "https://Shynefarms-ng.com/products/coconut.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Coconut"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/maize.html",
+      "name": "Maize Product Page",
+      "url": "https://Shynefarms-ng.com/products/maize.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Maize"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/millet.html",
+      "name": "Millet Product Page",
+      "url": "https://Shynefarms-ng.com/products/millet.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Millet"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/palm-oil.html",
+      "name": "Palm Oil Product Page",
+      "url": "https://Shynefarms-ng.com/products/palm-oil.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Palm Oil"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/snails.html",
+      "name": "Snails Product Page",
+      "url": "https://Shynefarms-ng.com/products/snails.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Snails"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/soya-beans.html",
+      "name": "Soya Beans Product Page",
+      "url": "https://Shynefarms-ng.com/products/soya-beans.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Soya Beans"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/vegetables.html",
+      "name": "Vegetables Product Page",
+      "url": "https://Shynefarms-ng.com/products/vegetables.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Vegetables"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://Shynefarms-ng.com/products/yam.html",
+      "name": "Yam Product Page",
+      "url": "https://Shynefarms-ng.com/products/yam.html",
+      "isPartOf": {
+        "@id": "https://Shynefarms-ng.com/#website"
+      },
+      "about": {
+        "@type": "Product",
+        "name": "Yam"
+      }
+    }
+  ]
+}
