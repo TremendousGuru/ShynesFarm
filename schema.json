@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@id": "https://Shynefarms-ng.com/#organization",
+      "@id": "https://shynefarms-ng.com/#organization",
       "@type": [
         "AgriculturalBusiness",
         "LocalBusiness"
@@ -15,16 +15,18 @@
         "name": "Corporate Affairs Commission (CAC), Nigeria",
         "value": "7222678"
       },
-      "description": "A Nigerian agricultural business supplying quality farm produce, livestock products, grains, and agricultural products to households, businesses, food processors, wholesalers, distributors, institutions, and commercial buyers.",
-      "url": "https://Shynefarms-ng.com",
-      "logo": "https://Shynefarms-ng.com/assets/icons/logo.png",
-      "image": "https://Shynefarms-ng.com/assets/images/hero/hero-farm-operation-desktop.webp",
+      "description": "SHYNE LIVESTOCK FARMS VENTURE is a CAC-registered Nigerian agricultural business supplying farm produce, grains and livestock products to households, hotels, restaurants, food processors, retailers, wholesalers, distributors and institutions. Lagos and Ogun State are priority service markets, with supply enquiries considered from other parts of Nigeria.",
+      "url": "https://shynefarms-ng.com/",
+      "logo": "https://shynefarms-ng.com/assets/icons/logo.png",
+      "image": "https://shynefarms-ng.com/assets/images/hero/hero-farm-operation-desktop.webp",
       "telephone": "+2347017005468",
       "email": "shyneagrofarms@yahoo.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "43 Queens Street, Alagomeji, Sabo Yaba",
+        "streetAddress": "43 Queen St, Alagomeji-Yaba",
         "addressLocality": "Lagos",
+        "addressRegion": "Lagos State",
+        "postalCode": "101245",
         "addressCountry": "NG"
       },
       "contactPoint": {
@@ -50,10 +52,20 @@
         "Food supply solutions",
         "Bulk agricultural distribution"
       ],
-      "areaServed": {
-        "@type": "Country",
-        "name": "Nigeria"
-      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lagos"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Ogun State"
+        },
+        {
+          "@type": "Country",
+          "name": "Nigeria"
+        }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Agricultural Products",
@@ -104,22 +116,23 @@
             "url": "https://Shynefarms-ng.com/products/yam.html"
           }
         ]
-      }
+      },
+      "hasMap": "https://maps.app.goo.gl/382UTYuph2EkHbpu6"
     },
     {
-      "@id": "https://Shynefarms-ng.com/#website",
+      "@id": "https://shynefarms-ng.com/#website",
       "@type": "WebSite",
       "name": "SHYNE LIVESTOCK FARMS VENTURE",
-      "url": "https://Shynefarms-ng.com",
+      "url": "https://shynefarms-ng.com",
       "publisher": {
         "@id": "https://Shynefarms-ng.com/#organization"
       }
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/#homepage",
+      "@id": "https://shynefarms-ng.com/#homepage",
       "name": "SHYNE LIVESTOCK FARMS VENTURE",
-      "url": "https://Shynefarms-ng.com",
+      "url": "https://shynefarms-ng.com",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -129,9 +142,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/Industries/food-processors.html",
+      "@id": "https://shynefarms-ng.com/Industries/food-processors.html",
       "name": "Food Processors",
-      "url": "https://Shynefarms-ng.com/Industries/food-processors.html",
+      "url": "https://shynefarms-ng.com/Industries/food-processors.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -141,9 +154,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/Industries/hotels-restaurants.html",
+      "@id": "https://shynefarms-ng.com/Industries/hotels-restaurants.html",
       "name": "Hotels and Restaurants",
-      "url": "https://Shynefarms-ng.com/Industries/hotels-restaurants.html",
+      "url": "https://shynefarms-ng.com/Industries/hotels-restaurants.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -153,9 +166,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/Industries/institutions.html",
+      "@id": "https://shynefarms-ng.com/Industries/institutions.html",
       "name": "Institutions",
-      "url": "https://Shynefarms-ng.com/Industries/institutions.html",
+      "url": "https://shynefarms-ng.com/Industries/institutions.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -165,9 +178,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/Industries/international-buyers.html",
+      "@id": "https://shynefarms-ng.com/Industries/international-buyers.html",
       "name": "International Buyers",
-      "url": "https://Shynefarms-ng.com/Industries/international-buyers.html",
+      "url": "https://shynefarms-ng.com/Industries/international-buyers.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -177,9 +190,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/Industries/supermarkets-retailers.html",
+      "@id": "https://shynefarms-ng.com/Industries/supermarkets-retailers.html",
       "name": "Supermarkets and Retailers",
-      "url": "https://Shynefarms-ng.com/Industries/supermarkets-retailers.html",
+      "url": "https://shynefarms-ng.com/Industries/supermarkets-retailers.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -189,9 +202,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/Industries/wholesalers-distributors.html",
+      "@id": "https://shynefarms-ng.com/Industries/wholesalers-distributors.html",
       "name": "Wholesalers and Distributors",
-      "url": "https://Shynefarms-ng.com/Industries/wholesalers-distributors.html",
+      "url": "https://shynefarms-ng.com/Industries/wholesalers-distributors.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -201,9 +214,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/catfish.html",
+      "@id": "https://shynefarms-ng.com/products/catfish.html",
       "name": "Catfish Product Page",
-      "url": "https://Shynefarms-ng.com/products/catfish.html",
+      "url": "https://shynefarms-ng.com/products/catfish.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -214,9 +227,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/coconut.html",
+      "@id": "https://shynefarms-ng.com/products/coconut.html",
       "name": "Coconut Product Page",
-      "url": "https://Shynefarms-ng.com/products/coconut.html",
+      "url": "https://shynefarms-ng.com/products/coconut.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -227,9 +240,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/maize.html",
+      "@id": "https://shynefarms-ng.com/products/maize.html",
       "name": "Maize Product Page",
-      "url": "https://Shynefarms-ng.com/products/maize.html",
+      "url": "https://shynefarms-ng.com/products/maize.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -240,9 +253,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/millet.html",
+      "@id": "https://shynefarms-ng.com/products/millet.html",
       "name": "Millet Product Page",
-      "url": "https://Shynefarms-ng.com/products/millet.html",
+      "url": "https://shynefarms-ng.com/products/millet.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -253,9 +266,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/palm-oil.html",
+      "@id": "https://shynefarms-ng.com/products/palm-oil.html",
       "name": "Palm Oil Product Page",
-      "url": "https://Shynefarms-ng.com/products/palm-oil.html",
+      "url": "https://shynefarms-ng.com/products/palm-oil.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -266,9 +279,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/snails.html",
+      "@id": "https://shynefarms-ng.com/products/snails.html",
       "name": "Snails Product Page",
-      "url": "https://Shynefarms-ng.com/products/snails.html",
+      "url": "https://shynefarms-ng.com/products/snails.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -279,9 +292,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/soya-beans.html",
+      "@id": "https://shynefarms-ng.com/products/soya-beans.html",
       "name": "Soya Beans Product Page",
-      "url": "https://Shynefarms-ng.com/products/soya-beans.html",
+      "url": "https://shynefarms-ng.com/products/soya-beans.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -292,9 +305,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/vegetables.html",
+      "@id": "https://shynefarms-ng.com/products/vegetables.html",
       "name": "Vegetables Product Page",
-      "url": "https://Shynefarms-ng.com/products/vegetables.html",
+      "url": "https://shynefarms-ng.com/products/vegetables.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },
@@ -305,9 +318,9 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://Shynefarms-ng.com/products/yam.html",
+      "@id": "https://shynefarms-ng.com/products/yam.html",
       "name": "Yam Product Page",
-      "url": "https://Shynefarms-ng.com/products/yam.html",
+      "url": "https://shynefarms-ng.com/products/yam.html",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
       },

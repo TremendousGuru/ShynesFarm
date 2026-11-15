@@ -472,3 +472,23 @@ if (stepImages.length > 0) {
     }
   });
 }
+
+/* GA4 lead-intent events: WhatsApp, phone, email, supply CTAs and forms. */
+document.addEventListener('click', (event) => {
+  const link = event.target.closest('a');
+  if (!link || typeof window.gtag !== 'function') return;
+  const href = (link.getAttribute('href') || '').trim();
+  let eventName = '';
+  let method = '';
+  if (/^https?:\/\/(?:wa\.me|api\.whatsapp\.com)\//i.test(href)) { eventName = 'contact'; method = 'whatsapp'; }
+  else if (/^tel:/i.test(href)) { eventName = 'contact'; method = 'phone'; }
+  else if (/^mailto:/i.test(href)) { eventName = 'contact'; method = 'email'; }
+  else if (/contact\.html|request-supply|supply-partnership/i.test(href) || /request supply|supply partnership|discuss bulk supply/i.test(link.textContent || '')) { eventName = 'generate_lead'; method = 'website_cta'; }
+  if (eventName) window.gtag('event', eventName, { method, link_url: href, page_path: location.pathname });
+});
+document.addEventListener('submit', (event) => {
+  if (typeof window.gtag !== 'function') return;
+  const form = event.target;
+  if (!(form instanceof HTMLFormElement)) return;
+  window.gtag('event', 'generate_lead', { method: 'website_form', form_id: form.id || '', form_name: form.getAttribute('name') || '', page_path: location.pathname });
+});

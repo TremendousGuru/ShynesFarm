@@ -1006,3 +1006,13 @@
   margin-top: 0.2rem;
   color: var(--color-primary);
 }
+
+
+/* Homepage buyer FAQ */
+.home-faq-section{padding:var(--spacing-3xl) 0;background:var(--color-gray-50)}
+.home-faq-list{max-width:900px;margin:0 auto;display:grid;gap:.8rem}
+.home-faq-list details{background:#fff;border:1px solid var(--color-gray-200);border-radius:var(--border-radius-lg);padding:1.1rem 1.25rem;box-shadow:var(--shadow-sm)}
+.home-faq-list summary{cursor:pointer;font-weight:700;color:var(--color-gray-900);line-height:1.5;padding-right:1.5rem}
+.home-faq-list details p{margin:.8rem 0 0;color:var(--color-gray-600)}
+.home-faq-cta{text-align:center;margin-top:1.5rem}
+.home-faq-list summary:focus-visible{outline:3px solid var(--color-secondary);outline-offset:4px;border-radius:3px}
