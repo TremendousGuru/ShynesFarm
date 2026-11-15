@@ -73,47 +73,47 @@
           {
             "@type": "Product",
             "name": "Catfish",
-            "url": "https://Shynefarms-ng.com/products/catfish.html"
+            "url": "https://shynefarms-ng.com/products/catfish.html"
           },
           {
             "@type": "Product",
             "name": "Coconut",
-            "url": "https://Shynefarms-ng.com/products/coconut.html"
+            "url": "https://shynefarms-ng.com/products/coconut.html"
           },
           {
             "@type": "Product",
             "name": "Maize",
-            "url": "https://Shynefarms-ng.com/products/maize.html"
+            "url": "https://shynefarms-ng.com/products/maize.html"
           },
           {
             "@type": "Product",
             "name": "Millet",
-            "url": "https://Shynefarms-ng.com/products/millet.html"
+            "url": "https://shynefarms-ng.com/products/millet.html"
           },
           {
             "@type": "Product",
             "name": "Palm Oil",
-            "url": "https://Shynefarms-ng.com/products/palm-oil.html"
+            "url": "https://shynefarms-ng.com/products/palm-oil.html"
           },
           {
             "@type": "Product",
             "name": "Snails",
-            "url": "https://Shynefarms-ng.com/products/snails.html"
+            "url": "https://shynefarms-ng.com/products/snails.html"
           },
           {
             "@type": "Product",
             "name": "Soya Beans",
-            "url": "https://Shynefarms-ng.com/products/soya-beans.html"
+            "url": "https://shynefarms-ng.com/products/soya-beans.html"
           },
           {
             "@type": "Product",
             "name": "Vegetables",
-            "url": "https://Shynefarms-ng.com/products/vegetables.html"
+            "url": "https://shynefarms-ng.com/products/vegetables.html"
           },
           {
             "@type": "Product",
             "name": "Yam",
-            "url": "https://Shynefarms-ng.com/products/yam.html"
+            "url": "https://shynefarms-ng.com/products/yam.html"
           }
         ]
       },
@@ -125,7 +125,7 @@
       "name": "SHYNE LIVESTOCK FARMS VENTURE",
       "url": "https://shynefarms-ng.com",
       "publisher": {
-        "@id": "https://Shynefarms-ng.com/#organization"
+        "@id": "https://shynefarms-ng.com/#organization"
       }
     },
     {
@@ -134,82 +134,10 @@
       "name": "SHYNE LIVESTOCK FARMS VENTURE",
       "url": "https://shynefarms-ng.com",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
-        "@id": "https://Shynefarms-ng.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://shynefarms-ng.com/Industries/food-processors.html",
-      "name": "Food Processors",
-      "url": "https://shynefarms-ng.com/Industries/food-processors.html",
-      "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
-      },
-      "about": {
-        "@id": "https://Shynefarms-ng.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://shynefarms-ng.com/Industries/hotels-restaurants.html",
-      "name": "Hotels and Restaurants",
-      "url": "https://shynefarms-ng.com/Industries/hotels-restaurants.html",
-      "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
-      },
-      "about": {
-        "@id": "https://Shynefarms-ng.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://shynefarms-ng.com/Industries/institutions.html",
-      "name": "Institutions",
-      "url": "https://shynefarms-ng.com/Industries/institutions.html",
-      "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
-      },
-      "about": {
-        "@id": "https://Shynefarms-ng.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://shynefarms-ng.com/Industries/international-buyers.html",
-      "name": "International Buyers",
-      "url": "https://shynefarms-ng.com/Industries/international-buyers.html",
-      "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
-      },
-      "about": {
-        "@id": "https://Shynefarms-ng.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://shynefarms-ng.com/Industries/supermarkets-retailers.html",
-      "name": "Supermarkets and Retailers",
-      "url": "https://shynefarms-ng.com/Industries/supermarkets-retailers.html",
-      "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
-      },
-      "about": {
-        "@id": "https://Shynefarms-ng.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://shynefarms-ng.com/Industries/wholesalers-distributors.html",
-      "name": "Wholesalers and Distributors",
-      "url": "https://shynefarms-ng.com/Industries/wholesalers-distributors.html",
-      "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
-      },
-      "about": {
-        "@id": "https://Shynefarms-ng.com/#organization"
+        "@id": "https://shynefarms-ng.com/#organization"
       }
     },
     {
@@ -218,7 +146,7 @@
       "name": "Catfish Product Page",
       "url": "https://shynefarms-ng.com/products/catfish.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
@@ -231,7 +159,7 @@
       "name": "Coconut Product Page",
       "url": "https://shynefarms-ng.com/products/coconut.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
@@ -244,7 +172,7 @@
       "name": "Maize Product Page",
       "url": "https://shynefarms-ng.com/products/maize.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
@@ -257,7 +185,7 @@
       "name": "Millet Product Page",
       "url": "https://shynefarms-ng.com/products/millet.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
@@ -270,7 +198,7 @@
       "name": "Palm Oil Product Page",
       "url": "https://shynefarms-ng.com/products/palm-oil.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
@@ -283,7 +211,7 @@
       "name": "Snails Product Page",
       "url": "https://shynefarms-ng.com/products/snails.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
@@ -296,7 +224,7 @@
       "name": "Soya Beans Product Page",
       "url": "https://shynefarms-ng.com/products/soya-beans.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
@@ -309,7 +237,7 @@
       "name": "Vegetables Product Page",
       "url": "https://shynefarms-ng.com/products/vegetables.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
@@ -322,7 +250,7 @@
       "name": "Yam Product Page",
       "url": "https://shynefarms-ng.com/products/yam.html",
       "isPartOf": {
-        "@id": "https://Shynefarms-ng.com/#website"
+        "@id": "https://shynefarms-ng.com/#website"
       },
       "about": {
         "@type": "Product",
