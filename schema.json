@@ -7,7 +7,7 @@
         "AgriculturalBusiness",
         "LocalBusiness"
       ],
-      "name": "SHYNE LIVESTOCK FARMS VENTURE",
+      "name": "SHYNE LIVESTOCK FARMS VENTURES",
       "legalName": "SHYNE LIVESTOCK FARMS VENTURES",
       "identifier": {
         "@type": "PropertyValue",
@@ -23,9 +23,25 @@
       "email": "shyneagrofarms@yahoo.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "43 Queens Street, Alagomeji, Sabo Yaba",
-        "addressLocality": "Lagos",
+        "streetAddress": "Oke Mua Area, Off Ilesha, Ibaruba Road",
+        "addressLocality": "Saki West, Shaki",
+        "addressRegion": "Oyo State",
+        "postalCode": "203101",
         "addressCountry": "NG"
+      },
+      "department": {
+        "@type": "LocalBusiness",
+        "name": "SHYNE LIVESTOCK FARMS VENTURES — Lagos Branch Office (Bookings and Enquiries)",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "43 Queen Street, Alagomeji, Sabo, Yaba",
+          "addressLocality": "Lagos",
+          "addressRegion": "Lagos State",
+          "postalCode": "101012",
+          "addressCountry": "NG"
+        },
+        "telephone": "+2347017005468",
+        "email": "shyneagrofarms@yahoo.com"
       },
       "contactPoint": {
         "@type": "ContactPoint",
@@ -109,7 +125,7 @@
     {
       "@id": "https://Shynefarms-ng.com/#website",
       "@type": "WebSite",
-      "name": "SHYNE LIVESTOCK FARMS VENTURE",
+      "name": "SHYNE LIVESTOCK FARMS VENTURES",
       "url": "https://Shynefarms-ng.com",
       "publisher": {
         "@id": "https://Shynefarms-ng.com/#organization"
@@ -118,7 +134,7 @@
     {
       "@type": "WebPage",
       "@id": "https://Shynefarms-ng.com/#homepage",
-      "name": "SHYNE LIVESTOCK FARMS VENTURE",
+      "name": "SHYNE LIVESTOCK FARMS VENTURES",
       "url": "https://Shynefarms-ng.com",
       "isPartOf": {
         "@id": "https://Shynefarms-ng.com/#website"
